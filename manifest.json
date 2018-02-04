@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "screenSaver-page-action",
+  "version": "1.0",
+  "description": "Show a page action after a period of inactivity. Show cat gifs when the page action is clicked.",
+  "icons": {
+    "48": "icon/game.png"
+  },
+
+  "permissions": [
+    "alarms",
+    "tabs"
+  ],
+
+  "page_action": {
+    "default_icon": "icon/game.png",
+    "default_title": "Game"
+  },
+
+  "background": {
+    "scripts": ["screensaver.js"]
+  }
+
+}
